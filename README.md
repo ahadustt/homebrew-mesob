@@ -7,7 +7,9 @@ This repository is the Homebrew tap **and** the download host: each [release](ht
 ## Install
 
 ```sh
-brew install --cask ahadustt/mesob/mesob
+brew tap ahadustt/mesob
+brew trust ahadustt/mesob     # Homebrew 7 loads third-party taps only after you trust them
+brew install --cask mesob
 ```
 
 Or download the newest DMG directly: <https://github.com/ahadustt/homebrew-mesob/releases/latest/download/Mesob-arm64.dmg>
